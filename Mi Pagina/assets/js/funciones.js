@@ -20,26 +20,22 @@ function validar(){
         cant--;
         switch(cant) {
             case 0:
-                alert("No le quedan más intentos, presione el botón Reintentar");
                 document.getElementById("validacion").innerHTML = "Perdió el juego. Inténtelo nuevamente.";
                 document.getElementById("validacion").className = "alert alert-danger";
                 break;
             case 2:
-                alert("Respuesta equivocada - Le restan " + cant + " intentos.");
-                document.getElementById("validacion").innerHTML = "Pista N° 1: El país está formado por una isla.";
+                document.getElementById("validacion").innerHTML = "Respuesta equivocada - Le restan " + cant + " intentos. <br> Pista N° 1: El país está formado por una isla.";
                 document.getElementById("validacion").className = "alert alert-info";
                 document.getElementById("imp-respuesta").value = "";
                 break;
             case 1:
-                alert("Respuesta equivocada - Le restan " + cant + " intentos.");
-                document.getElementById("validacion").innerHTML = "Pista N° 2: El país esta gobernado por la reina mas longeva del mundo.";
+                document.getElementById("validacion").innerHTML = "Respuesta equivocada - Le resta " + cant + " intento. <br> Pista N° 2: El país esta gobernado por la reina mas longeva del mundo.";
                 document.getElementById("validacion").className = "alert alert-info";
                 document.getElementById("imp-respuesta").value = "";
                 break;
             default:
-                alert("Respuesta equivocada - Le restan " + cant + " intentos.");
-                document.getElementById("validacion").innerHTML = respuesta + " no es la respuesta correcta."
-                document.getElementById("validacion").className = "alert alert-warning";
+                document.getElementById("validacion").innerHTML = "Respuesta equivocada - Le restan " + cant + " intentos.";
+                document.getElementById("validacion").className = "alert alert-info";
                 document.getElementById("imp-respuesta").value = "";
         }
     }

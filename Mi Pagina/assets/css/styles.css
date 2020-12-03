@@ -148,3 +148,11 @@ button {
 table ul li{
     font-size: 18px;
 }
+.img-noticia {
+    width: 90%;
+    display: block;
+    margin: auto;
+    box-shadow: 5px 2px 2px gray;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}

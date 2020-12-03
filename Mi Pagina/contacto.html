@@ -15,82 +15,82 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
 </head>
-<header>
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">
-        <img src="assets/imagenes/logo1.png" width="100" height="100" alt="Logo de Pagina" loading="lazy">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Noticias.html">Noticias</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </div>
-        <a class="navbar-brand" href="https://www.atptour.com/es/" target="_blank">
-          <img src="assets/imagenes/atptour.jpg" width="100" height="100" alt="Logo de Pagina" loading="lazy">
-        </a>
-      </nav>
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="index.html">
+          <img src="assets/imagenes/logo1.png" width="100" height="100" alt="Logo de Pagina" loading="lazy">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Noticias.html">Noticias</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+          <a class="navbar-brand" href="https://www.atptour.com/es/" target="_blank">
+            <img src="assets/imagenes/atptour.jpg" width="100" height="100" alt="Logo de Pagina" loading="lazy">
+          </a>
+        </nav>
+    </div>
+  </header>
+  <div class="container pt-4">  
+    <div class="col-12 col-md-12 col-lg-12" style="padding: 0;">
+      <span class="d-block p-2 bg-dark text-white"><h3>Formulario de contacto</h3></span>
   </div>
-</header>
-<div class="container pt-4">  
-  <div class="col-12 col-md-12 col-lg-12" style="padding: 0;">
-    <span class="d-block p-2 bg-dark text-white"><h3>Formulario de contacto</h3></span>
-  </div>
-  
-  <div class="row">
     
-    <div class="col-12 col-md-12 col-lg-5 p-2">
-      <!-- imagen -->
-      <div class="img-contacto text-center" >
-        <img src="assets/imagenes/logo_principal.png" alt=""> 
-      </div>
-      <!-- datos de contacto -->
-      <ul class="list-group lista-contacto p-2">
-        <li class="list-group-item"><i class="fas fa-at"></i> &nbsp;contacto@tenisfans.com.ar</li>
-        <li class="list-group-item"><i class="fas fa-mobile"></i> &nbsp;+54 3454 401982</li>
-        <li class="list-group-item"><img src="assets/imagenes/instagram.svg" alt="" style="max-width: 15px;"><a href="https://www.instagram.com" target="blank-url">  &nbsp;/tenisfans</a></li>
-        <li class="list-group-item"><img src="assets/imagenes/facebook.svg" alt="" style="max-width: 15px;"><a href="https://www.facebook.com" target="blank-url">  &nbsp;/tenisfans</a></li>
-      </ul>
-    </div>
-    <div class="col-12 col-md-12 col-lg-7">
+    <div class="row">
       
-      <form action="#" class="was-validated pt-4" style="width: 100%;">
-        <div class="form-group">        
-          <label for="nombre">Apellido y Nombre:</label>                   
-          <input type="text" class="form-control" id="nombre" placeholder="Ingrese su apellido y nombre" name="nombre" required>
-          <div class="valid-feedback">Válido.</div>
-          <div class="invalid-feedback">Este campo no puede estar vacío.</div>
+      <div class="col-12 col-md-12 col-lg-5 p-2">
+        <!-- imagen -->
+        <div class="img-contacto text-center" >
+          <img src="assets/imagenes/logo_principal.png" alt=""> 
         </div>
-        <div class="form-group">
-          <label for="mail">Email:</label>
-          <input type="email" class="form-control" id="mail" placeholder="Ingrese su correo electrónico" name="mail" required>
-          <div class="valid-feedback">Válido.</div>
-          <div class="invalid-feedback">Revise que la dirección de correo ingresada sea correcta.</div>
-        </div>
-        <div>
-          <label for="mensaje">Su mensaje:</label>
-          <textarea class="form-control" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Ingrese su mensaje." required></textarea>
-          <div class="valid-feedback">Válido</div>
-          <div class="invalid-feedback">Este campo no puede estar vacío.</div>
-        </div>
-        <button type="submit" class="btn btn-dark">Enviar mensaje</button>
-      </form>
+        <!-- datos de contacto -->
+        <ul class="list-group lista-contacto p-2">
+          <li class="list-group-item"><i class="fas fa-at"></i> &nbsp;contacto@tenisfans.com.ar</li>
+          <li class="list-group-item"><i class="fas fa-mobile"></i> &nbsp;+54 3454 401982</li>
+          <li class="list-group-item"><img src="assets/imagenes/instagram.svg" alt="" style="max-width: 15px;"><a href="https://www.instagram.com" target="blank-url">  &nbsp;/tenisfans</a></li>
+          <li class="list-group-item"><img src="assets/imagenes/facebook.svg" alt="" style="max-width: 15px;"><a href="https://www.facebook.com" target="blank-url">  &nbsp;/tenisfans</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-12 col-lg-7">
+        
+        <form action="#" class="was-validated pt-4" style="width: 100%;">
+          <div class="form-group">        
+            <label for="nombre">Apellido y Nombre:</label>                   
+            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su apellido y nombre" name="nombre" required>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Este campo no puede estar vacío.</div>
+          </div>
+          <div class="form-group">
+            <label for="mail">Email:</label>
+            <input type="email" class="form-control" id="mail" placeholder="Ingrese su correo electrónico" name="mail" required>
+            <div class="valid-feedback">Válido.</div>
+            <div class="invalid-feedback">Revise que la dirección de correo ingresada sea correcta.</div>
+          </div>
+          <div>
+            <label for="mensaje">Su mensaje:</label>
+            <textarea class="form-control" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Ingrese su mensaje." required></textarea>
+            <div class="valid-feedback">Válido</div>
+            <div class="invalid-feedback">Este campo no puede estar vacío.</div>
+          </div>
+          <button type="submit" class="btn btn-dark">Enviar mensaje</button>
+        </form>
+      </div>
     </div>
   </div>
- </div>
-</div>
-
+  </div>
 <body>
     
 
